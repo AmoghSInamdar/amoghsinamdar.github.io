@@ -59,10 +59,6 @@ Delete the attribute to bring the tab back.
 The markup of a switched-off tab is still in the `index.html` source; it is
 only the live page that no longer contains it.
 
-Personal and Photography are currently off this way. The photo files under
-`photos/` and `data/photos.json` are still in the repository and still served;
-the page just never requests them.
-
 ## Adding photos
 
 Drop the full-resolution files into `photos/originals/` and run:
