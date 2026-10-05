@@ -259,9 +259,9 @@ header {
 
 .intro-grid {
   display: grid;
-  grid-template-columns: minmax(220px, 240px) 1fr;
+  grid-template-columns: minmax(220px, 340px) 1fr;
   gap: 3.5rem;
-  align-items: start;
+  align-items: center; /* photo sits level with the middle of the text beside it */
   margin-bottom: 3rem;
 }
 
@@ -282,11 +282,12 @@ header {
 
 .profile-photo img {
   width: 100%;
-  max-width: 3in;
+  max-width: 340px;
   height: auto;
   aspect-ratio: 1;
   object-fit: cover;
   display: block;
+  margin: 0 auto; /* centred in its column when the layout stacks on narrow screens */
   border-radius: 999px;
   border: 2px solid var(--accent);
 }
