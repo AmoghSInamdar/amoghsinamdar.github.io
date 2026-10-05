@@ -1,0 +1,79 @@
+[
+  {
+    "title": "Graduate Research Assistant",
+    "employer": "Columbia University",
+    "location": "New York, NY",
+    "date": "Jan 2024 – Present",
+    "description": "Ph.D. research advised by Dr. Richard Zemel. Research areas: machine learning, continual learning, and curriculum learning."
+  },
+  {
+    "title": "Software Engineer",
+    "employer": "Salesforce",
+    "location": "San Francisco, CA",
+    "date": "Jun 2022 – Dec 2023",
+    "description": "Salesforce Data Cloud, Fabric Layer.",
+    "bullets": [
+      "Operated the Data Processing Controller (DPC) for Spark jobs on AWS EMR/EKS; $10M/month of compute.",
+      "Led DPC enhancements: job prioritization, GovCloud compliance, Spinnaker/Terraform rollouts.",
+      "Spearheaded Airflow-on-Kubernetes DAG enhancements; led critical database upgrade with zero downtime."
+    ]
+  },
+  {
+    "title": "Software Engineer Intern",
+    "employer": "Salesforce",
+    "location": "San Francisco, CA",
+    "date": "Jun 2021 – Sep 2021",
+    "description": "ML Services team, Einstein Platform.",
+    "bullets": [
+      "Created a Python SDK to reduce bring-your-own-model containerization/deployment from hours to minutes.",
+      "Published a Python package with company-wide visibility for rapid ML prototyping on the Einstein platform."
+    ]
+  },
+  {
+    "hidden": true,
+    "title": "Software Engineer",
+    "employer": "AI Model Share Initiative, Columbia University",
+    "location": "New York, NY (Remote)",
+    "date": "Mar 2021 – Jun 2021",
+    "bullets": [
+      "Created an API to deploy customized pre-trained ML models as AWS Lambda endpoints reachable by AWS API Gateway.",
+      "Prototyped AWS CloudFormation integration for modular deployments of AI Model Share infrastructure."
+    ]
+  },
+  {
+    "title": "Software Engineer",
+    "employer": "Cadence Design Systems",
+    "location": "Bengaluru, India",
+    "date": "Jul 2020 – Sep 2020",
+    "description": "R&D team, Pegasus Verification System.",
+    "bullets": [
+      "Devised and integrated a C++ engine to improve Pegasus microchip Design Rule Check efficiency.",
+      "Enhanced automated test generation for microchip density and fill characteristics in Python and KLayout."
+    ]
+  },
+  {
+    "hidden": true,
+    "title": "Research Intern",
+    "employer": "Samsung India",
+    "location": "Bengaluru, India",
+    "date": "Apr 2019 – Nov 2019",
+    "description": "PRISM Undergraduate Research Program in AI at the Samsung R&D Institute Bangalore.",
+    "bullets": [
+      "Led a student research team in On-Device AI to create a SQL for Lucene parser with Antlr4 in Java.",
+      "Exceeded all KPIs for parsing and search performance by 5–10×.",
+      "Presented results to 300+ Samsung engineers and received a Certificate of Excellence."
+    ]
+  },
+  {
+    "hidden": true,
+    "title": "Research Intern",
+    "employer": "Indian Institute of Science (IISc)",
+    "location": "Bengaluru, India",
+    "date": "Jun 2018 – Dec 2018",
+    "description": "2018 Indian Academies of Science Summer Research Fellow with Dr. Balaji Jayaprakash, Center for Neuroscience, IISc.",
+    "bullets": [
+      "Modeled problem-solving behavior via long-term memory consolidation in a Morris Water Maze in rats.",
+      "Designed and developed a Morris Water Maze simulator in C++ and Java with a GUI in Java Swing."
+    ]
+  }
+]

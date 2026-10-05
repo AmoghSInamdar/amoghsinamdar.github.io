@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Organizing",
+    "noun": "role",
+    "entries": [
+      {
+        "info": "Lead Organizer, Continual Learning Working Group — NSF ARNI Institute",
+        "date": "2025 – Present",
+        "description": "Coordinate biweekly meetings and lead a shared project initiative on continual learning for the NSF AI Institute for Artificial and Natural Intelligence. 70+ faculty and student participants across Columbia, Stanford, Princeton, and other universities."
+      }
+    ]
+  },
+  {
+    "title": "Teaching",
+    "noun": "position",
+    "entries": [
+      {
+        "info": "COMS 6998: Continual Learning and Memory Models w/ Richard Zemel; Columbia University",
+        "date": "Fall 2026"
+      },
+      {
+        "info": "COMS 4776: Neural Networks and Deep Learning w/ Richard Zemel; Columbia University",
+        "date": "Fall 2025",
+        "description": "Conducted tutorial sessions in class, held office hours, and contributed to assignment design. ~120 students enrolled."
+      },
+      {
+        "info": "COMS 4771: Machine Learning w/ Nakul Verma; Columbia University",
+        "date": "Spring 2022",
+        "description": "Held weekly office hours and designed and graded assignments. ~160 students enrolled."
+      },
+      {
+        "info": "COMS 4771: Machine Learning w/ Nakul Verma; Columbia University",
+        "date": "Summer 2021",
+        "description": "Held weekly office hours and designed and graded assignments. ~100 students enrolled."
+      },
+      {
+        "info": "Course Assistant – Columbia-edX AI Micromasters",
+        "date": "Spring 2021",
+        "description": "Moderated a discussion board and answered questions for this MOOC course. ~2000 students enrolled."
+      }
+    ]
+  },
+  {
+    "title": "Reviewing",
+    "noun": "position",
+    "entries": [
+      {
+        "info": "ICLR 2027",
+        "date": "2027",
+        "description": "Reviewer for the International Conference on Learning Representations."
+      },
+      {
+        "info": "NeurIPS 2026 — Main Track",
+        "date": "2026",
+        "description": "Reviewer for the main track of the Conference on Neural Information Processing Systems."
+      },
+      {
+        "info": "CCFM Workshop @ NeurIPS 2025",
+        "date": "2025",
+        "description": "Reviewed papers for the NeurIPS 2025 Workshop on Continuous and Compatible Foundation Model Updates."
+      }
+    ]
+  },
+  {
+    "title": "Awards",
+    "noun": "award",
+    "entries": [
+      {
+        "info": "Gold Medal — Ramaiah Institute of Technology",
+        "date": "2020",
+        "description": "Awarded to the top graduating student in Computer Science and Engineering (rank 1 of 180+)."
+      },
+      {
+        "info": "Summer Research Fellowship — Indian Academy of Sciences",
+        "date": "2018",
+        "description": "Highly selective national research fellowship. Conducted research at the NeuroDynamics Lab, Indian Institute of Science."
+      }
+    ]
+  }
+]

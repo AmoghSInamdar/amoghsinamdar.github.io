@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Amogh Inamdar | PhD Student, Columbia University</title>
+    <meta
+      name="description"
+      content="Amogh Inamdar is a Computer Science Ph.D. student at Columbia University advised by Richard Zemel, researching curriculum learning and data-efficient training of machine learning models."
+    />
+    <meta name="author" content="Amogh Inamdar" />
+    <link rel="canonical" href="https://amoghsinamdar.github.io/" />
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Amogh Inamdar | PhD Student, Columbia University" />
+    <meta
+      property="og:description"
+      content="Computer Science Ph.D. student at Columbia University researching curriculum learning and data-efficient training of machine learning models."
+    />
+    <meta property="og:url" content="https://amoghsinamdar.github.io/" />
+    <meta property="og:image" content="https://amoghsinamdar.github.io/assets/amogh_profile_photo.jpg" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
+
+    <link id="siteStylesheet" rel="stylesheet" href="styles.css" />
+
+    <!-- Resolve the theme before first paint so neither light nor dark flashes. -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('darkMode');
+          var isDark =
+            saved === null ? window.matchMedia('(prefers-color-scheme: dark)').matches : saved === 'true';
+          document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+        } catch (error) {
+          /* Private mode or blocked storage: fall back to the CSS media query. */
+        }
+      })();
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header>
+      <nav class="navbar" aria-label="Primary">
+        <div class="navbar-left">
+          <span class="navbar-brand">Amogh Inamdar</span>
+        </div>
+
+        <div class="navbar-links" role="tablist" aria-label="Sections">
+          <a id="tablink-about" role="tab" href="#about" data-tab="about" aria-controls="tab-about" aria-selected="true">About</a>
+          <a id="tablink-cv" role="tab" href="#cv" data-tab="cv" aria-controls="tab-cv" aria-selected="false" tabindex="-1">CV</a>
+          <!-- `hidden` switches a tab off: main.js removes its link and panel from the page. Delete the attribute to bring the tab back. -->
+          <a id="tablink-personal" role="tab" href="#personal" data-tab="personal" aria-controls="tab-personal" aria-selected="false" tabindex="-1" hidden>Personal</a>
+          <a id="tablink-photography" role="tab" href="#photography" data-tab="photography" aria-controls="tab-photography" aria-selected="false" tabindex="-1" hidden>Photography</a>
+        </div>
+
+        <div class="navbar-right">
+          <button id="darkToggle" type="button" aria-label="Switch to dark mode">🌙</button>
+          <button id="cssToggle" type="button" aria-label="Disable CSS" aria-pressed="false">
+            CSS
+            <svg id="cssCancel" viewBox="0 0 36 36" aria-hidden="true">
+              <circle cx="18" cy="18" r="15" stroke="#ff4444" stroke-width="2.5" fill="rgba(255,68,68,0.15)" />
+              <line x1="5" y1="5" x2="31" y2="31" stroke="#ff4444" stroke-width="2.5" stroke-linecap="round" />
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <noscript>
+        <p class="notice">
+          This site uses JavaScript to switch between sections and to load the publication, experience, and
+          photography lists. Everything below the About section needs it. You can still
+          <a href="assets/amogh_cv.pdf">download my CV (PDF)</a> or email
+          <a href="mailto:amogh.inamdar@columbia.edu">amogh.inamdar@columbia.edu</a>.
+        </p>
+      </noscript>
+
+      <div class="tab-panels">
+        <section id="tab-about" class="tab-panel active" role="tabpanel" aria-labelledby="tablink-about">
+          <div class="intro-grid">
+            <div class="profile-photo">
+              <img
+                src="assets/amogh_profile_photo.jpg"
+                alt="Portrait of Amogh Inamdar"
+                width="288"
+                height="288"
+              />
+            </div>
+
+            <div class="intro-right">
+              <h1 class="name">Amogh Inamdar</h1>
+              <p class="title">Ph.D. Student in Computer Science, Columbia University</p>
+
+              <p>
+                Hello, and welcome to my webpage! I am a Ph.D. student in Computer Science at Columbia
+                University, advised by Dr. Richard Zemel. My research is currently focused on improving the
+                process for training machine learning models. Human learning and machine learning (ML)
+                currently follow pathologically different strategies. While human learning is continuous and
+                curriculum-driven, ML predominantly focuses on repeated presentations of randomly sampled data
+                from large training datasets. The latter paradigm is notoriously far less data efficient than
+                the former, particularly for massive multi-task learners like AI 'foundation models'. Through
+                my research, I aim to improve our understanding of ML models in continual learning settings,
+                and develop more effective and efficient ways to train these models.
+              </p>
+
+              <p>
+                Prior to the doctoral program, I graduated from Columbia with a Master's degree in Computer
+                Science and worked on deploying and managing massive-scale Kubernetes clusters as a software
+                engineer on the Data Cloud Platform at Salesforce.
+              </p>
+
+              <ul class="contact-links">
+                <li>
+                  <a href="mailto:amogh.inamdar@columbia.edu">
+                    <svg class="social-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <rect x="3" y="5" width="18" height="14" rx="2" />
+                      <path d="m3 7 9 6 9-6" />
+                    </svg>
+                    Email Me
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/amoghinamdar/" target="_blank" rel="noopener">
+                    <img src="assets/linkedin_logo.png" alt="" width="21" height="18" class="social-icon" />
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a href="https://scholar.google.com/citations?hl=en&amp;user=7maZyGAAAAAJ" target="_blank" rel="noopener">
+                    <img src="assets/google_scholar_logo.png" alt="" width="18" height="18" class="social-icon" />
+                    Google Scholar
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/AmoghSInamdar" target="_blank" rel="noopener">
+                    <img src="assets/github_logo.png" alt="" width="18" height="18" class="social-icon social-icon--mono" />
+                    GitHub
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <section id="research" class="section">
+            <h2>Research</h2>
+            <p>Click any card to expand it for more details. '*' denotes equal contribution.</p>
+            <div class="publication-list" id="publicationList"></div>
+          </section>
+
+          <section id="experience" class="section">
+            <h2>Professional Experience</h2>
+            <p>
+              For a full list of my professional experience, please visit my
+              <a href="https://www.linkedin.com/in/amoghinamdar/" target="_blank" rel="noopener">LinkedIn</a>
+              profile.
+            </p>
+            <div class="experience-list" id="experienceList"></div>
+          </section>
+
+          <section id="teaching" class="section">
+            <h2>Teaching, Service &amp; Awards</h2>
+            <div class="publication-list" id="serviceList"></div>
+          </section>
+        </section>
+
+        <section id="tab-cv" class="tab-panel" role="tabpanel" aria-labelledby="tablink-cv">
+          <section class="section">
+            <h2>Curriculum Vitae</h2>
+            <p>
+              Viewing the PDF directly in the browser. If your browser doesn't support embedded PDF, you can
+              download it from the link below.
+            </p>
+            <p>
+              <a class="button" href="assets/amogh_cv.pdf" download>Download CV (PDF)</a>
+            </p>
+            <div class="pdf-viewer">
+              <iframe data-src="assets/amogh_cv.pdf" title="Curriculum vitae of Amogh Inamdar"></iframe>
+            </div>
+          </section>
+        </section>
+
+        <section id="tab-personal" class="tab-panel" role="tabpanel" aria-labelledby="tablink-personal">
+          <section class="section">
+            <h2>Personal</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+              massa.
+            </p>
+
+            <article class="personal-card">
+              <h3>Chess</h3>
+              <p>Strategic thinking and problem solving through regular game play.</p>
+            </article>
+
+            <article class="personal-card">
+              <h3>Music</h3>
+              <p>Playing piano and synthesizer for relaxation and creativity.</p>
+            </article>
+
+            <article class="personal-card">
+              <h3>Photography</h3>
+              <p>Capturing landscapes and experimental portraits in natural light.</p>
+            </article>
+          </section>
+        </section>
+
+        <section id="tab-photography" class="tab-panel" role="tabpanel" aria-labelledby="tablink-photography">
+          <section class="section">
+            <h2>Photography</h2>
+            <p>
+              Some sample photos from my work and travels. Click any photo to enlarge it and see the
+              camera settings. These are web-sized copies — if you'd like a high-resolution version of
+              any of them, just <a href="mailto:amogh.inamdar@columbia.edu">email me</a>.
+            </p>
+
+            <div class="photo-pagination" id="photoPagination" hidden>
+              <button id="prevPage" type="button" disabled>← Previous</button>
+              <div id="pageLinks" class="page-links" aria-label="Photo pages"></div>
+              <button id="nextPage" type="button">Next →</button>
+            </div>
+
+            <p id="photoStatus" class="visually-hidden" role="status"></p>
+            <div class="photo-card-grid" id="photoGrid"></div>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Amogh Inamdar. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
